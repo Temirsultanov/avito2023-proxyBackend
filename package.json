@@ -1,0 +1,11 @@
+{
+  "name": "avito2023-api",
+  "version": "1.0.0",
+  "description": "API Proxy Server to FreeToPlay Application",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "author": "Muhammad Temirsultanov",
+  "license": "ISC"
+}
