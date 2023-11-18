@@ -41,7 +41,8 @@ const server = http.createServer((request, response) => {
     return;
   }
 
-  sleep(2000).then(routes[route](params)).then((data) => {
+  sleep(2000).then(() => routes[route](params)).then((data) => {
+    console.log(data)
     response.statusCode = 200;
     response.end(data);  
   }).catch((error) => {
