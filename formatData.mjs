@@ -9,6 +9,7 @@ export const transformGameFromAPIViewToAppView = (gameFromAPI) => {
 		developer: gameFromAPI.developer,
 		screenshots: gameFromAPI.screenshots,
 		minSystemRequirements: gameFromAPI.minimum_system_requirements,
+		gameUrl: gameFromAPI.game_url
 	}
 }
 

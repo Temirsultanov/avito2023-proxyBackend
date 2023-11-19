@@ -11,6 +11,7 @@ export type Game = Game_Preview & {
 	developer: string
 	screenshots: Screenshot[]
 	minSystemRequirements: Min_System_Requirements
+	gameUrl: string
 }
 
 export type Screenshot = {
